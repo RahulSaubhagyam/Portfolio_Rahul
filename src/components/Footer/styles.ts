@@ -14,6 +14,44 @@ export const Container = styled.footer`
     font-size: 2.8rem;
   }
 
+
+   .contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    place-items: center;
+    margin-top: 1.5rem;
+    div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      max-width: 30rem;
+      gap: 2rem;
+      background-color: var(--green);
+      border-radius: 1.4rem;
+      padding: 1.2rem 2.2rem;
+      transition: background-color 0.25s;
+      img{
+        width: 2rem;
+        align-items: center;
+        justify-content: center;
+        margin-top:0.6rem;
+      }
+      a{
+        color: var(--black);
+        font-weight: 500;
+      }
+      &:hover{
+        background-color: var(--pink);
+        a{
+          color: #FFF;
+        }
+      }
+    }
+  }
+
   p{
     letter-spacing: 0.2rem;
     display: flex;
