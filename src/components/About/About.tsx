@@ -1,6 +1,7 @@
 import { Container } from "./styles";
 import VinayakSingh from "../../assets/VinayakSingh.png";
 import RahulRabadiya from "../../assets/RahulRabadiya.png";
+import RahulNew from "../../assets/RahulNew.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -155,7 +156,16 @@ export function About() {
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
           {/* <img src={VinayakSingh} alt="Rahul Rabadiya" /> */}
-          <img src={RahulRabadiya} alt="Rahul Rabadiya" />
+          <img
+            src={RahulNew}
+            alt="Rahul Rabadiya"
+            style={{
+              borderRadius: 30,
+              width: "300px", // Adjust width as needed
+              height: "auto", // Maintain aspect ratio
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)"
+            }}
+          />
         </ScrollAnimation>
       </div>
     </Container>

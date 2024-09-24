@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 12rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+   margin-top: 12rem;
+    display: flex;
+    gap: 100px;
+
 
   .hard-skills{
     margin-top: 1.6rem;
@@ -38,6 +39,7 @@ export const Container = styled.section`
   }
 
   p{
+  text-align: justify;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
@@ -48,7 +50,7 @@ export const Container = styled.section`
   .about-image{
     text-align: center;
    img{
-     margin-top: 2rem;
+     margin-top: 5rem;
      width: 75%;
      filter: grayscale(0);
      transition: filter 0.5s;

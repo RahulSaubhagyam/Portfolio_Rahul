@@ -5,7 +5,7 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
+//import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import sassIcon from "../../assets/sass-icon.svg";
@@ -148,31 +148,31 @@ export function Main() {
                 weight: "400"
               },
               image: [
-                {
-                  src: boostrapIcon,
-                  width: 20,
-                  height: 20
-                },
-                {
-                  src: cssIcon,
-                  width: 20,
-                  height: 20
-                },
-                {
-                  src: wordpress,
-                  width: 20,
-                  height: 20
-                },
-                {
-                  src: shopify,
-                  width: 20,
-                  height: 20
-                },
-                {
-                  src: htmlIcon,
-                  width: 20,
-                  height: 20
-                },
+                // {
+                //   src: boostrapIcon,
+                //   width: 20,
+                //   height: 20
+                // },
+                // {
+                //   src: cssIcon,
+                //   width: 20,
+                //   height: 20
+                // },
+                // {
+                //   src: wordpress,
+                //   width: 20,
+                //   height: 20
+                // },
+                // {
+                //   src: shopify,
+                //   width: 20,
+                //   height: 20
+                // },
+                // {
+                //   src: htmlIcon,
+                //   width: 20,
+                //   height: 20
+                // },
                 {
                   src: jsIcon,
                   width: 20,
@@ -193,26 +193,26 @@ export function Main() {
                   width: 20,
                   height: 20
                 },
-                {
-                  src: sassIcon,
-                  width: 20,
-                  height: 20
-                },
+                // {
+                //   src: sassIcon,
+                //   width: 20,
+                //   height: 20
+                // },
                 {
                   src: typescriptIcon,
                   width: 20,
                   height: 20
-                },
+                }
                 // {
                 //   "src": vscodeIcon,
                 //   "width": 20,
                 //   "height": 20
                 // },
-                {
-                  src: vueIcon,
-                  width: 20,
-                  height: 20
-                }
+                // {
+                //   src: vueIcon,
+                //   width: 20,
+                //   height: 20
+                // }
               ],
               polygon: {
                 sides: 5
@@ -257,7 +257,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
     </Container>
   );
 }

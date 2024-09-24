@@ -28,7 +28,8 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
+        // background-color: var(--pink);
+        background-color: #005e1c;
       }
 
       header{
@@ -36,11 +37,11 @@ export const Container = styled.section`
         align-items: center;
         justify-content: space-between;
         color: var(--blue);
-        margin-bottom: 3.6rem;
+        margin-bottom: 2.5rem;
         .project-links{
           display: flex;
           align-items: center;
-          gap: 1rem;
+          gap: 2rem;
         }
         a > img {
           width: 5.0rem;

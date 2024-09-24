@@ -2,6 +2,9 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg";
 // import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg";
+import googleplay from "../../assets/googleplay.png";
+import appstore from "../../assets/appstore.png";
+import envanto from "../../assets/envanto.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function Project() {
@@ -12,7 +15,7 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg
+              {/* <svg
                 width="50"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -26,21 +29,30 @@ export function Project() {
                 {" "}
                 <title>Folder</title>{" "}
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
-              </svg>
+              </svg> */}
               <div className="project-links">
                 <a
-                  href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                  // href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                  href="https://play.google.com/store/apps/details?id=com.multipz.gpbo&hl=enIN"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="Visit site" />
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
                 </a>
                 <a
                   href="https://vote.vinayaksingh.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLink} alt="Visit site" />
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
                 </a>{" "}
               </div>
             </header>
@@ -48,24 +60,561 @@ export function Project() {
               <h3>GPBO : Global Patidar Business Organization</h3>
               <p>
                 {" "}
-                Developed a serverless voting app using React, AWS Lambda, API
-                Gateway, and DynamoDB, enabling users to view programming
-                languages, cast votes, and access details through an interactive
-                UI, leveraging serverless architecture for scalability and
-                cost-efficiency.{" "}
+                Developed a business and social networking React Native app
+                designed to connect professionals and entrepreneurs. The app
+                enables users to build networks, collaborate, sharing business
+                internal wing wise, social media activities like social post ,
+                stories upload and share insights, fostering both business
+                growth and social interaction{" "}
               </p>
             </div>
             <footer>
               {" "}
               <ul className="tech-list">
                 {" "}
-                <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li>{" "}
+                <li>PayUMoney</li> <li>API Integration</li> <li>Google Map</li>
+                <li>Media Picker</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg> */}
+              <div className="project-links">
+                <a
+                  // href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                  href="https://play.google.com/store/apps/details?id=com.sose.main&hl=en-IN"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>
+                <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "}
+              </div>
+            </header>
+            <div className="body">
+              <h3>SOSE : Sidha Kishan Se</h3>
+              <p>
+                {" "}
+                Developed An organic product selling React Native app integrated
+                with a Python-based ERP backend for seamless inventory and order
+                management. The app provides users with a smooth shopping
+                experience, connecting them to a variety of organic products.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Python Backend</li> <li>PayUMoney Payment</li>
+                <li>Firebase</li> <li>API Integration</li>{" "}
               </ul>{" "}
             </footer>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg> */}
+              <div className="project-links">
+                <a
+                  // href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                  href="https://play.google.com/store/apps/details?id=com.ommart&hl=en-IN"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>
+                <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "}
+              </div>
+            </header>
+            <div className="body">
+              <h3>Om Mart : B2B Vendor Distribution Channel App</h3>
+              <p>
+                {" "}
+                Developed A B2B vendor distribution channel app built using
+                React Native and Redux Toolkit for efficient state management.
+                The app enhances vendor operations, streamlining inventory
+                control, different login roles like distributor, dealer, ASM,
+                area sales manager ordering feature with incentives and order
+                processing for businesses.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>RazorPay</li> <li>SMS Gateway</li>
+                <li>Firebase</li> <li>API Integration</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg> */}
+              <div className="project-links">
+                <a
+                  // href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                  href="https://play.google.com/store/apps/details?id=com.indiainfluencer.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>
+                {/* <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "} */}
+              </div>
+            </header>
+            <div className="body">
+              <h3>
+                Influenstar: Marketing, Business Promotion and hire influencer
+                App
+              </h3>
+              <p>
+                {" "}
+                A marketing, business promotion, and influencer hiring platform
+                that allows users or business owners or different influencer to
+                send connect requests and engage through chat, developed using
+                React Native, Redux Toolkit, and TypeScript. The app streamlines
+                influencer collaborations to enhance brand promotion.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Chat</li> <li>Firebase</li>
+                <li>Redux-Toolkit</li> <li>Media picker</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg> */}
+              <div className="project-links">
+                <a
+                  // href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                  href="https://play.google.com/store/apps/details?id=com.rizbook&hl=en-IN"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>
+                <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "}
+              </div>
+            </header>
+            <div className="body">
+              <h3>RizBook: Service provider and service booking App</h3>
+              <p>
+                {" "}
+                A service provider and service booking app developed using React
+                Native, Redux Toolkit, and TypeScript. The app offers seamless
+                booking functionality, near by services listing, appointment
+                slot booking with date and time availability, booking history,
+                booking status tracking, notifications connecting users with
+                various service providers efficiently.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Stripe</li> <li>Google Map</li>
+                <li>Redux-Toolkit</li> <li>TypeScript</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg> */}
+              <div className="project-links">
+                <a
+                  // href="https://github.com/CodeVinayak/Serverless-Voting-Application"
+                  href="https://play.google.com/store/apps/details?id=com.vuub&hl=en-IN"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>
+                <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "}
+              </div>
+            </header>
+            <div className="body">
+              <h3>VuuB Memo: Story reel create and social media App</h3>
+              <p>
+                {" "}
+                A story reel creation and social media app built with React
+                Native, Redux Toolkit, and TypeScript. The app allows users to
+                create, share, chat each other,follow and engage with dynamic
+                story reels on a social platform.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Chat</li> <li>Firebase</li>
+                <li>Redux-Toolkit</li> <li>Media picker</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg> */}
+              <div className="project-links">
+                <a
+                  href="https://codecanyon.net/item/restorder-android-a-single-restaurant-food-ordering-app/22900313"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={envanto}
+                    alt="Visit site"
+                    style={{
+                      width: 80,
+                      height: 40,
+                      borderRadius: 20
+                    }}
+                  />
+                </a>
+                {/* <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "} */}
+              </div>
+            </header>
+            <div className="body">
+              <h3>
+                RestOrder (Product App): Restaurant Online Food Order
+                Application
+              </h3>
+              <p>
+                {" "}
+                An online food ordering app developed in Android Native using
+                Java and XML for the user interface. App is uploaded on the
+                envanto market, codecenyon platform for project selling purpose.
+                The app provides users with a seamless food ordering experience,
+                from browsing menus to placing orders. Menu categories, Sub
+                Categories, Add to cart, cart list, order history, order
+                tracking status of order arrivals, payment options, Google
+                AdMob, Banner , Interstitial Video Ads are integrated in this
+                app.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>OneSignal</li> <li>Google AdsMob</li>
+                <li>RazorPay</li> <li>Cart</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                {" "}
+                <title>Folder</title>{" "}
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
+              </svg> */}
+              {/* <div className="project-links">
+                <a
+                  // href="https://play.google.com/store/apps/details?id=com.vuub&hl=en-IN"
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>
+                <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "}
+              </div> */}
+            </header>
+            <div className="body">
+              <h3>
+                Yuhuu TeleCaller App: One-to-one Video and Audio calling App{" "}
+              </h3>
+              <p>
+                {" "}
+                A one-to-one video and audio calling app developed in Android
+                Native using Java and XML UI, leveraging the Agora SDK for
+                real-time communication. The app provides high-quality audio and
+                video interactions, enhancing connectivity between users. User
+                can add money through Razorpay in the in-app Wallet and make
+                call with users. This app is developed for the client as a
+                product and personal usage.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>Agora SDK</li> <li>Google AdsMob</li>
+                <li>RazorPay</li> <li>Notification</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              {/* <div className="project-links">
+                <a
+                  // href="https://play.google.com/store/apps/details?id=com.vuub&hl=en-IN"
+                  href=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={googleplay}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>
+                <a
+                  href="https://vote.vinayaksingh.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={appstore}
+                    alt="Visit site"
+                    style={{ width: 35, height: 35 }}
+                  />
+                </a>{" "}
+              </div> */}
+            </header>
+            <div className="body">
+              <h3>
+                IoT App for Car Sensors Analysis: Using ESP32 Wifi-BT Chip
+                Device
+              </h3>
+              <p>
+                {" "}
+                An Android Native app developed for analyzing car sensor data
+                using the ESP32 WiFi-BT chip. The app enables users to monitor
+                real-time sensor information, providing insights into vehicle
+                performance and diagnostics. It facilitates data visualization
+                and alerts for improved vehicle maintenance and safety. Using
+                Arduino IDE and ESP32 device with Wifi- BT connection, app has
+                been tested. This app was developed as a product for one of the
+                US Client requirement.{" "}
+              </p>
+            </div>
+            <footer>
+              {" "}
+              <ul className="tech-list">
+                {" "}
+                <li>ESP32</li> <li>Arduino</li>
+                <li>Wifi-BT data transfer</li>{" "}
+              </ul>{" "}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg
@@ -331,7 +880,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">

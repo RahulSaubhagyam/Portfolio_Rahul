@@ -6,7 +6,7 @@ import { Form } from "../Form/Form";
 export function Contact() {
   return (
     <Container id="contact">
-      <header>
+      {/* <header>
         <h2>Contact</h2>
         <p>Ready to get started on your project? </p>
         <p>Contact me now for a Free consultation.</p>
@@ -25,7 +25,7 @@ export function Contact() {
           <a href="tel:+919630576848">(+91) 9727169281</a>
         </div>
       </div>
-      <Form></Form>
+      <Form></Form> */}
     </Container>
   );
 }
